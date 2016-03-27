@@ -1,0 +1,6 @@
+{
+  "name": "Identity",
+  "tagline": "HTML5UP Identity Template For Pico CMS",
+  "body": "# Identity\r\nHTML5UP Identity Template For Pico CMS\r\n\r\nDownload the identity folder, upload it in the themes folder of your pico installation and change the following setting within your config.php:\r\n\r\n$config['theme'] = 'identity';\r\n\r\nFor The content  download our index.md, upload it in the content folder and make your change.\r\n\r\nFor Social Icon we use Font Awesome.\r\n\r\nFor Your Image you can download your profile picture in images folder in theme folder with the same name : \"avatar.jpg\" or you can use the meta Image in the index.md :\r\nImage: http://yoursite.com/yourpicture.jpg\r\n\r\nFor The Background change the \"bg.jpg\" in the folder images with your background image.<br />\r\nRecommanded Size : <br />avatar.jpg => 122x122 px | bg.jpg 1440x900 px\r\n\r\n####Demo : http://html5up.net/uploads/demos/identity/\r\n\r\n##Screenshot\r\n\r\n<img src=\"http://img15.hostingpics.net/pics/363213identityscreenshot.jpg\" alt=\"Identity Screenshot\" />\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
