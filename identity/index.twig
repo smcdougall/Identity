@@ -41,7 +41,11 @@
 						<footer>
 							<ul class="icons">
 								{% for link,icon in meta.social %}
-									<li><a href="{{ link }}" class="fa-{{ icon }}">{{ icon }}</a></li>
+									{% if link != "br" %}
+										<li><a href="{{ link }}" class="fa-{{ icon }}">{{ icon }}</a></li>
+									{% else %}
+										<br>
+									{% endif %}
 								{% endfor %}
 							</ul>
 						</footer>
