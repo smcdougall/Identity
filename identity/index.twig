@@ -15,6 +15,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="{{ theme_url }}/assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ theme_url }}/assets/css/ie8.css" /><![endif]-->
 		<noscript><link rel="stylesheet" href="{{ theme_url }}/assets/css/noscript.css" /></noscript>
+		{% if meta.css_override %}<link rel="stylesheet" href="{{ base_url ~ "/" ~ meta.css_override }}">{% endif %}
 		<script type="application/ld+json">
 		{
 		  "@context" : "http://schema.org",
@@ -44,6 +45,10 @@
 								{% endfor %}
 							</ul>
 						</footer>
+
+						<section id="content">
+							{{ content }}
+						</section>
 					</section>
 
 				<!-- Footer -->
